@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <!-- Add Font Awesome for social media icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo"> Portfolio</div>
+            <nav class="nav">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+        <!-- Social media links below portfolio title -->
+        <div class="social-links">
+            <a href="https://www.instagram.com/vriti_marwaha" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/VRITI MARWAHA" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/vritimarwah28" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="mailto:vritimarwaha@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hello, I'm Vriti Marwaha</h1>
+            <p>I'm a passionate developer, designer.</p>
+            <a href="#projects" class="cta-button">See My Work</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I am a full-stack developer with a love for clean code and functional design. 
+                I have experience in web development, UI/UX design, and more.
+            </p>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300" alt="Project 1">
+                    <h3>Project One</h3>
+                    <p>A brief description of the project.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300" alt="Project 2">
+                    <h3>Project Two</h3>
+                    <p>A brief description of the project.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300" alt="Project 3">
+                    <h3>Project Three</h3>
+                    <p>A brief description of the project.</p>
+                    <a href="#">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 by Vriti Marwaha</p>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
